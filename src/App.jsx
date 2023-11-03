@@ -13,11 +13,6 @@ function App() {
   const [isNotNextStep, setIsNotNextStep] = useState(true);
   console.log("isNotNextStep =>", isNotNextStep);
   console.log("isEditMode =>", isEditMode);
-  // console.log(username);
-  // console.log(email);
-  // console.log(password);
-  // console.log(confirmPassword);
-  // const [showError, setShowError] = useState(false);
 
   const handleSubmitFor = (event) => {
     event.preventDefault();
