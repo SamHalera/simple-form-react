@@ -1,0 +1,75 @@
+:root {
+  font-family: "Kanit", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+form {
+  width: 400px;
+  height: 700px;
+  /* background-color: beige; */
+  display: flex;
+  flex-direction: column;
+}
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 10px;
+}
+
+input,
+button {
+  margin-bottom: 25px;
+  height: 50px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  padding: 0 10px;
+}
+input::placeholder {
+  color: lightgrey;
+}
+
+input[type="submit"],
+.step-two button {
+  background-color: #5c47d2;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.step-two {
+  background-color: rgb(235, 235, 235);
+  width: 400px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.infos p {
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
