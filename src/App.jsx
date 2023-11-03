@@ -11,8 +11,6 @@ function App() {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [isEditMode, setIsEditMode] = useState(true);
   const [isNotNextStep, setIsNotNextStep] = useState(true);
-  console.log("isNotNextStep =>", isNotNextStep);
-  console.log("isEditMode =>", isEditMode);
 
   const handleSubmitFor = (event) => {
     event.preventDefault();
